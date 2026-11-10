@@ -1,0 +1,112 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Nunito", sans-serif;
+}
+
+.uzun {
+    background-color: #fcbf49;
+    height: 5px;
+    border: nome;
+}
+
+.ikkinchi {
+    display: flex;
+    flex-direction: column;
+    padding: 70px 90px;
+    gap: 20px;
+}
+
+.haqida {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.haqida i {
+    font-size: 35px;
+    color: #2a9d8f;
+}
+
+.haqida h3 {
+    font-size: 30px;
+    color: #14213d;
+    font-weight: 800px;
+}
+
+.tavsif {
+    color: #14213d;
+}
+
+.ikkinchi ol{
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    gap: 10px;
+}
+
+.ikkinchi ol li{
+    display: flex;
+    gap: 5px;
+    align-items: baseline;
+}
+
+.ikkinchi ol li i{
+    color: #2a9d8f;
+}
+
+.ikkinchi ol li p{
+    color: #14213d;
+}
+
+.uchinchi {
+    display: flex;
+    flex-direction: column;
+    padding: 50px 90px;
+    background-color: #f7f9fd;
+    gap: 20px;
+}
+
+.uchinchi div {
+    display: flex;
+    gap: 10px;
+    align-items: baseline;
+}
+
+.uchinchi div i {
+    color: #2a9d8f;
+    font-size: ;
+}
+
+.uchinchi div h3 {
+    color: #14213d;
+    font-size: 25px;
+    font-weight: 900;
+}
+
+.uchinchi ol {
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: repeat(3 auto);
+    gap: 30px;
+}
+
+.uchinchi ol li {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 20px;
+    border-left: 5px solid #2a9d8f;
+}
+
+.uchinchi ol li i {
+    color: #2a9d8f;
+    font-size: ;
+}
+
+.uchinchi ol li h3 {
+    
+}
